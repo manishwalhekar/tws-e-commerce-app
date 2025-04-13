@@ -9,7 +9,7 @@ pipeline {
         DOCKER_MIGRATION_IMAGE_NAME = 'manishwalhekar/easyshop-migration'
         DOCKER_IMAGE_TAG = "${BUILD_NUMBER}"
         GITHUB_CREDENTIALS = credentials('github-credentials')
-        GIT_BRANCH = "tf-DevOps"
+        GIT_BRANCH = "master"
     }
     
     stages {
